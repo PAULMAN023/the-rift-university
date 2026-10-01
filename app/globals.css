@@ -1,32 +1,108 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+export const stats = [
+  { label: 'Schools', value: '5' },
+  { label: 'Programmes', value: 'Drafting' },
+  { label: 'Learning model', value: 'Online-first' },
+  { label: 'Founder', value: 'Paul Manyololi' },
+];
 
-:root {
-  --background: #f7f3e9;
-  --foreground: #172b45;
-}
+export const programHighlights = [
+  {
+    icon: '📘',
+    title: 'Academic excellence',
+    description: 'Structured programmes and digital learning pathways designed to develop critical thinking and leadership.',
+  },
+  {
+    icon: '🌍',
+    title: 'African identity',
+    description: 'African-rooted values, local relevance and global ambition in a single academic experience.',
+  },
+  {
+    icon: '⚙️',
+    title: 'Digital transformation',
+    description: 'Modern online delivery, smart administration and secure academic systems built for future growth.',
+  },
+];
 
-html {
-  scroll-behavior: smooth;
-}
+export const schoolCards = [
+  {
+    title: 'School of Computing and Artificial Intelligence',
+    description: 'AI, software engineering, digital systems, and data-driven innovation.',
+  },
+  {
+    title: 'School of Cybersecurity and Digital Systems',
+    description: 'Secure systems design, digital protection, and technology resilience.',
+  },
+  {
+    title: 'School of Business and Entrepreneurship',
+    description: 'Leadership, enterprise, strategy, and business innovation skills.',
+  },
+];
 
-body {
-  margin: 0;
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+export const programmes = [
+  {
+    slug: 'bsc-computing-ai',
+    title: 'BSc Computing and Artificial Intelligence',
+    duration: '4 years',
+    level: 'Undergraduate',
+    description: 'A proposed programme focused on software systems, artificial intelligence and digital problem solving.',
+    entryRequirements: 'Four or more relevant academic passes and approved programme screening.',
+    outcomes: ['Design and build intelligent systems', 'Apply computing foundations to real problems', 'Work ethically with emerging technologies'],
+  },
+  {
+    slug: 'cybersecurity-digital-systems',
+    title: 'Diploma in Cybersecurity and Digital Systems',
+    duration: '2 years',
+    level: 'Diploma',
+    description: 'A practical programme covering secure systems, governance and digital resilience.',
+    entryRequirements: 'Relevant secondary or equivalent academic background.',
+    outcomes: ['Protect digital systems and networks', 'Understand governance and risk', 'Operate securely in digital environments'],
+  },
+  {
+    slug: 'business-entrepreneurship',
+    title: 'BA Business and Entrepreneurship',
+    duration: '3 years',
+    level: 'Undergraduate',
+    description: 'A future-facing business programme designed for leadership, enterprise and strategy.',
+    entryRequirements: 'Relevant secondary qualification and skills review.',
+    outcomes: ['Develop business strategies', 'Evaluate markets and opportunities', 'Lead enterprise solutions'],
+  },
+];
 
-* {
-  box-sizing: border-box;
-}
+export const testimonials = [
+  {
+    name: 'A. Kimani',
+    role: 'Prospective student',
+    quote: 'The TRU platform feels clear, credible and purpose-driven. It reflects a serious academic vision.',
+  },
+  {
+    name: 'J. Otieno',
+    role: 'Academic mentor',
+    quote: 'The design makes sense for modern education: focused, accessible and future-ready.',
+  },
+  {
+    name: 'M. Wanjiku',
+    role: 'Career explorer',
+    quote: 'The emphasis on practical learning and digital capability stands out from traditional models.',
+  },
+];
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
+export const newsItems = [
+  {
+    slug: 'tru-foundation',
+    category: 'Announcement',
+    title: 'TRU outlines its digital university foundation',
+    summary: 'The first phase focuses on academic structure, digital systems, and professional campus design.',
+  },
+  {
+    slug: 'admissions-update',
+    category: 'Admissions',
+    title: 'Admissions pathways and student support updates',
+    summary: 'A draft overview of programme entry requirements and student support processes is being prepared.',
+  },
+  {
+    slug: 'online-learning',
+    category: 'Learning',
+    title: 'The TRU learning model is built for access and flexibility',
+    summary: 'The platform is being shaped around practical coursework, digital resources and student progress.',
+  },
+];
